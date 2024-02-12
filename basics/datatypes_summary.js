@@ -32,3 +32,25 @@ const myFunction = function(){
 
 console.log(typeof bigInt);
 console.log(typeof outsideTemp);
+
+
+// ********************************************************
+
+//stack (primitive) , heap(non-proimitive)
+
+let myYoutubename = "radhnagamer";
+let anothername = myYoutubename;
+anothername ="radhnacoder";
+console.log(anothername);
+
+let userone = {
+  email : "user@google.com",
+  upi : "user@ybl",
+}
+
+let userTwo = userone ;
+
+userTwo.email = "mehak@gmail.com"
+
+console.log(userone.email);
+console.log(userTwo.email);
